@@ -693,8 +693,7 @@ class HttpFlood(Thread):
                 'Safari/537.36',
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 '
                 'Safari/537.36',
-                  'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36",
-    
+                  
             ]
         self._useragents = list(useragents)
         self._req_type = self.getMethodType(method)
