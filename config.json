@@ -3,7 +3,8 @@
   "MINECRAFT_DEFAULT_PROTOCOL": 47,
   "proxy-providers": [
 
-		{"type":4, "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4",  "timeout": 5},
+		{"type":4, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxy.txt",  "timeout": 5},
+	  	{"type":4, "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4",  "timeout": 5},
 		{"type":4, "url": "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4",  "timeout": 5},
 		{"type":4, "url": "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=all",  "timeout": 5},
 		{"type":4, "url": "https://api.openproxylist.xyz/socks4.txt",  "timeout": 5},
