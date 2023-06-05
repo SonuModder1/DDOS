@@ -687,11 +687,14 @@ class HttpFlood(Thread):
 
         if not useragents:
             useragents: List[str] = [
-           'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 '
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 '
                 'Safari/537.36',
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 '
                 'Safari/537.36',
-      'Baiduspider ( http://www.baidu.com/search/spider.htm)',
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 '
+                'Safari/537.36',
+                	'Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)',
+			'Baiduspider ( http://www.baidu.com/search/spider.htm)',
 			'BlackBerry7100i/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103',
 			'BlackBerry7520/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/5.0.3.3 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)',
 			'BlackBerry8300/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/107 UP.Link/6.2.3.15.0',
@@ -1112,10 +1115,12 @@ class HttpFlood(Thread):
 			'W3C_Validator/1.654',
 			'w3m/0.5.1',
 			'WDG_Validator/1.6.2',
-			
+			'WebCopier v4.6',
+			'Web Downloader/6.9',
+			'WebZIP/3.5 (http://www.spidersoft.com)',
+			'Wget/1.9.1',
 			'Wget/1.9 cvs-stable (Red Hat modified)',
 			'wii libnup/1.0',
-
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0'
             ]
         self._useragents = list(useragents)
