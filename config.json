@@ -26,6 +26,7 @@
 		{"type":4, "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt",  "timeout": 5},
 
 		{"type":5, "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS5.txt",  "timeout": 5},
+	        {"type":5, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxy.txt",  "timeout": 5},
 		{"type":5, "url": "https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks5.txt",  "timeout": 5},
 		{"type":5, "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt",  "timeout": 5},
 		{"type":5, "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks5.txt",  "timeout": 5},
