@@ -1110,7 +1110,7 @@ class HttpFlood(Thread):
 	"https://www.facebook.com/",
 	"https://www.youtube.com/",
 	"https://www.fbi.com/",
-		    'https://www.google.com/search?q=",
+		    "https://www.google.com/search?q=",
 		"https://check-host.net/",
 		"https://www.facebook.com/",
 		"https://www.youtube.com/",
