@@ -8029,7 +8029,8 @@ class HttpFlood(Thread):
             self._raw_target = (self._host, (self._target.port or 80))
 
         if not referers:
-            https://www.facebook.eferers: List[str] = [
+		referers:  List[str] = [
+                "https://www.facebook.com/l.php?uhttps://www.facebook.com/l.php?u=",
                 "com/l.php?u=https://www.facebook.com/l.php?u=",
                 ",https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer"
                 "/sharer.php?u=",
