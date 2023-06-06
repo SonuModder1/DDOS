@@ -8027,11 +8027,11 @@ class HttpFlood(Thread):
 
         if not self._target.host[len(self._target.host) - 1].isdigit():
             self._raw_target = (self._host, (self._target.port or 80))
-
-        if not referers:
-		referers:  List[str] = [
-                "https://www.facebook.com/l.php?uhttps://www.facebook.com/l.php?u=",
-                "com/l.php?u=https://www.facebook.com/l.php?u=",
+	
+	
+ if not referers:
+            referers: List[str] = [
+                "https://www.facebook.com/l.php?u=https://www.facebook.com/l.php?u=",
                 ",https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer"
                 "/sharer.php?u=",
                 ",https://drive.google.com/viewerng/viewer?url=",
