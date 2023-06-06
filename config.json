@@ -3,9 +3,7 @@
   "MINECRAFT_DEFAULT_PROTOCOL": 47,
   "proxy-providers": [
 
-	  
-		{"type":4, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxylets.txt",  "timeout": 5},
-                {"type":4, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxy.txt",  "timeout": 5},
+		{"type":4, "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4",  "timeout": 5},
 		{"type":4, "url": "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4",  "timeout": 5},
 		{"type":4, "url": "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=all",  "timeout": 5},
 		{"type":4, "url": "https://api.openproxylist.xyz/socks4.txt",  "timeout": 5},
@@ -28,8 +26,6 @@
 		{"type":4, "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt",  "timeout": 5},
 
 		{"type":5, "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS5.txt",  "timeout": 5},
-	        {"type":5, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxylets.txt",  "timeout": 5},
-	        {"type":5, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxy.txt",  "timeout": 5},
 		{"type":5, "url": "https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks5.txt",  "timeout": 5},
 		{"type":5, "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt",  "timeout": 5},
 		{"type":5, "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks5.txt",  "timeout": 5},
@@ -56,7 +52,6 @@
 
 
 		{"type":1, "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/HTTP.txt",  "timeout": 5},
-	        {"type":1, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxylets.txt",  "timeout": 5},
 		{"type":1, "url": "https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/http.txt",  "timeout": 5},
 		{"type":1, "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt",  "timeout": 5},
 		{"type":1, "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/https.txt",  "timeout": 5},
@@ -67,7 +62,6 @@
 		{"type":1, "url": "https://multiproxy.org/txt_all/proxy.txt",  "timeout": 5},
 		{"type":1, "url": "https://proxyspace.pro/http.txt",  "timeout": 5},
 		{"type":1, "url": "https://proxyspace.pro/https.txt",  "timeout": 5},
-	        {"type":1, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxy.txt",  "timeout": 5},
 		{"type":1, "url": "https://proxy-spider.com/api/proxies.example.txt",  "timeout": 5},
 		{"type":1, "url": "http://proxysearcher.sourceforge.net/Proxy%20List.php?type=http",  "timeout": 5},
 		{"type":1, "url": "https://raw.githubusercontent.com/RX4096/proxy-list/main/online/all.txt",  "timeout": 5},
@@ -105,11 +99,6 @@
 		{"type":1, "url": "https://www.my-proxy.com/free-proxy-list-9.html",  "timeout": 5},
 		{"type":1, "url": "https://www.my-proxy.com/free-proxy-list-10.html",  "timeout": 5},
 		{"type":1, "url": "https://www.freeproxychecker.com/result/http_proxies.txt",  "timeout": 5}
-	  
-	  
-	  
-	  
-	
 		
 	]
 }
