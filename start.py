@@ -9048,7 +9048,7 @@ class ToolsConsole:
         records = ['_ts3._udp.', '_tsdns._tcp.']
         DnsResolver = resolver.Resolver()
         DnsResolver.timeout = 1
-        DnsResolver.lifetime = 1ÿ
+        DnsResolver.lifetime = 1
         Info = {}
         for rec in records:
             try:
