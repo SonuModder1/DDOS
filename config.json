@@ -3,7 +3,9 @@
   "MINECRAFT_DEFAULT_PROTOCOL": 47,
   "proxy-providers": [
 
-		{"type":4, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxy.txt",  "timeout": 5},
+	  
+		{"type":4, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxylets.txt",  "timeout": 5},
+                {"type":4, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxy.txt",  "timeout": 5},
 		{"type":4, "url": "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4",  "timeout": 5},
 		{"type":4, "url": "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=all",  "timeout": 5},
 		{"type":4, "url": "https://api.openproxylist.xyz/socks4.txt",  "timeout": 5},
@@ -26,6 +28,7 @@
 		{"type":4, "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt",  "timeout": 5},
 
 		{"type":5, "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS5.txt",  "timeout": 5},
+	        {"type":5, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxylets.txt",  "timeout": 5},
 	        {"type":5, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxy.txt",  "timeout": 5},
 		{"type":5, "url": "https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks5.txt",  "timeout": 5},
 		{"type":5, "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt",  "timeout": 5},
@@ -53,6 +56,7 @@
 
 
 		{"type":1, "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/HTTP.txt",  "timeout": 5},
+	        {"type":1, "url": "https://raw.githubusercontent.com/SonuModder1/Githg/main/proxylets.txt",  "timeout": 5},
 		{"type":1, "url": "https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/http.txt",  "timeout": 5},
 		{"type":1, "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt",  "timeout": 5},
 		{"type":1, "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/https.txt",  "timeout": 5},
