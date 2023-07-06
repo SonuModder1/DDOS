@@ -1,4 +1,3 @@
-https://raw.githubusercontent.com/SonuModder1/Bypass/main/proxy.txt
 https://www.facebook.com/l.php?u=https://www.facebook.com/l.php?u=
 https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=
 https://drive.google.com/viewerng/viewer?url=
@@ -112,6 +111,7 @@ http://waggum-bevenrode.sg-bevenrode.com/plugins/system/plugin_googlemap3/plugin
 http://bwsnt1.pdsda.net/plugins/system/plugin_googlemap3_proxy.php?url=
 http://www.astecdisseny.com/plugins/content/plugin_googlemap2_proxy.php?url=
 http://www.fillmorefairways.com/plugins/content/plugin_googlemap2_proxy.php?url=
+https://raw.githubusercontent.com/SonuModder1/Bypass/main/proxy.txt
 http://www.bus-reichert.eu/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url=
 http://www.maxxxi.ru/plugins/system/plugin_googlemap2_proxy.php?url=
 http://potholepeople.co.nz/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url=
